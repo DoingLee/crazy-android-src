@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal">
+		<TextView
+			android:text="@string/txtAddress"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<!-- 定义输入地址的文本框 -->
+		<EditText
+			android:id="@+id/address"
+			android:inputType="text"
+			android:text="@string/targetAddress"
+			android:textSize="14sp"
+			android:layout_width="240dp"
+			android:layout_height="wrap_content" />
+		<Button
+			android:id="@+id/nav"
+			android:text="@string/nav"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="4" />
+	</LinearLayout>
+	<!-- 使用高德地图的提供的MapView -->
+	<com.amap.api.maps.MapView
+		android:id="@+id/map"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+</LinearLayout>

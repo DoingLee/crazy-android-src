@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TextView"
+    android:textColor="#f0f"
+    android:textSize="30dp"
+    android:shadowColor="#ff0"
+    android:shadowRadius="2"
+    android:shadowDx="5"
+    android:shadowDy="5"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" />

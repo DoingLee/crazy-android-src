@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="hello">系统正在检测是否临近疯狂软件教育中心</string>
+	<string name="app_name">临近警告</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpinnerTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tip">请选择您喜欢的人物</string>
+
+</resources>

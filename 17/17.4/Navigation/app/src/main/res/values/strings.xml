@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">导航</string>
+	<string name="txtAddress">目标地</string>
+	<string name="targetAddress">华南农业大学</string>
+	<string name="nav">规划路线</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

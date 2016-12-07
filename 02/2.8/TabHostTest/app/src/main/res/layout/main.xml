@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_weight="1">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<TabWidget
+			android:id="@android:id/tabs"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+		<FrameLayout
+			android:id="@android:id/tabcontent"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			<!-- 定义第一个标签页的内容 -->
+			<LinearLayout
+				android:id="@+id/tab01"
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="女儿国国王 - 2012/12/12"
+					android:textSize="11pt" />
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="东海龙女 - 2012/12/18"
+					android:textSize="11pt" />
+			</LinearLayout>
+			<!-- 定义第二个标签页的内容 -->
+			<LinearLayout
+				android:id="@+id/tab02"
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="白骨精  - 2012/08/12"
+					android:textSize="11pt" />
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="蜘蛛精 - 2012/09/20"
+					android:textSize="11pt" />
+			</LinearLayout>
+			<!-- 定义第三个标签页的内容 -->
+			<LinearLayout
+				android:id="@+id/tab03"
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:textSize="11pt">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="孙悟空 - 2012/09/19"
+					android:textSize="11pt" />
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="猪八戒  - 2012/10/12"
+					android:textSize="11pt" />
+			</LinearLayout>
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>

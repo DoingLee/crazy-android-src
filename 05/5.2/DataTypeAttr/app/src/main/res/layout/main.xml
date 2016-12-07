@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="匹配scheme的Intent"
+		android:onClick="scheme"/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="匹配scheme、host、port的Intent"
+		android:onClick="schemeHostPort"/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="匹配scheme、host、path的Intent"
+		android:onClick="schemeHostPath"/>	
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="匹配scheme、host、port、path的Intent"
+		android:onClick="schemeHostPortPath"/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="匹配scheme、host、port、path和type的Intent"
+		android:onClick="schemeHostPortPathType"/>			
+</LinearLayout>

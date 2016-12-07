@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal">
+	<TextView
+		android:text="@string/txtLong"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<!-- 定义输入经度值的文本框 -->
+	<EditText
+		android:id="@+id/lng"
+		android:text="@string/lng"
+		android:inputType="numberDecimal"
+		android:layout_width="100dp"
+		android:layout_height="wrap_content" />
+	<TextView
+		android:text="@string/txtLat"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="8dp" />
+	<!-- 定义输入纬度值的文本框 -->
+	<EditText
+		android:id="@+id/lat"
+		android:text="@string/lat"
+		android:inputType="numberDecimal"
+		android:layout_width="100dp"
+		android:layout_height="wrap_content" />
+	<Button
+		android:id="@+id/loc"
+		android:text="@string/loc"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="4" />
+</LinearLayout>
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal">
+	<!-- 定义选择定位方式的单选按钮组 -->
+<RadioGroup
+	android:id="@+id/rg"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_weight="1">
+	<RadioButton
+		android:text="@string/manul"
+		android:id="@+id/manual"
+		android:checked="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	<RadioButton
+		android:text="@string/gps"
+		android:id="@+id/gps"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+</RadioGroup>
+</LinearLayout>
+<!-- 使用高德地图的提供的MapView -->
+<com.amap.api.maps.MapView
+	android:id="@+id/map"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" />
+</LinearLayout>

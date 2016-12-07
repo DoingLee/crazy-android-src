@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<!-- 显示视频预览的SurfaceView -->
+	<SurfaceView
+		android:id="@+id/sView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true">
+		<ImageButton
+			android:id="@+id/record"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/record" />
+		<ImageButton
+			android:id="@+id/stop"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/stop" />
+	</LinearLayout>
+</RelativeLayout>

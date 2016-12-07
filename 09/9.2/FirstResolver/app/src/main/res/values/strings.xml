@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">ContentResolver与ContentProvider</string>
+	<string name="query">查询</string>
+	<string name="insert">插入</string>
+	<string name="update">更新</string>
+	<string name="delete">删除</string>
+
+</resources>

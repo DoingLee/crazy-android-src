@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<LinearLayout
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/orientation" />
+<EditText
+	android:id="@+id/etOrientation"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:editable="false"
+	android:cursorVisible="false" />
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/gyro" />
+<EditText
+	android:id="@+id/etGyro"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:editable="false"
+	android:cursorVisible="false" />
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/magnetic" />
+<EditText
+	android:id="@+id/etMagnetic"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:editable="false"
+	android:cursorVisible="false" />
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/gravity" />
+<EditText
+	android:id="@+id/etGravity"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:editable="false"
+	android:cursorVisible="false" />
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/linearAcc" />
+<EditText
+	android:id="@+id/etLinearAcc"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:editable="false"
+	android:cursorVisible="false" />
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/temperature" />
+<EditText
+	android:id="@+id/etTemerature"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:editable="false"
+	android:cursorVisible="false" />
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/light" />
+<EditText
+	android:id="@+id/etLight"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:editable="false"
+	android:cursorVisible="false" />
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/pressure" />
+<EditText
+	android:id="@+id/etPressure"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:editable="false"
+	android:cursorVisible="false" />
+</LinearLayout>
+</ScrollView>

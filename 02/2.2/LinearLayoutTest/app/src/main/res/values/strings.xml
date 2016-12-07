@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">LinearLayoutTest</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="action_settings">Settings</string>
+	<string name="bn1">按钮一</string>
+	<string name="bn2">按钮二</string>
+	<string name="bn3">按钮三</string>
+	<string name="bn4">按钮四</string>
+	<string name="bn5">按钮五</string>
+
+</resources>

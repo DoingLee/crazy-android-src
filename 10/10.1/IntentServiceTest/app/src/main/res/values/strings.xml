@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">IntentService测试</string>
+	<string name="start_service">启动普通Service</string>
+	<string name="start_intent_service">启动IntentService</string>
+</resources>

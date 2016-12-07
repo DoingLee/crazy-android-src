@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string	name="app_name">根据地址定位</string>
+	<string	name="txtAddress">地址:</string>
+	<string	name="address">沣宏大厦</string>
+	<string	name="loc">定位</string>
+
+</resources>
